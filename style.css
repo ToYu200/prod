@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(205, 175, 137);
+}
+#Logo{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.adder{
+    display: flex;
+    justify-content: center;
+  }
+  
+#myButton{
+    background-color: rgb(231, 16, 206);
+    color: rgb(5, 3, 2);
+    border: none;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    font-family: Arial,
+    sans-serif;
+    font-size: 13px;
+  }
+  
+.newTask{
+    margin-top: 5px;
+    display: flex;
+    justify-content: left;
+}
+
+#label{
+    margin-top: 0px;
+    padding-left: 100px;
+    margin-bottom: 5px;
+    font-family: Arial,
+    sans-serif;
+    font-size: 20px;
+}
+
+#newInputTask{
+    margin-left: -225px;
+    margin-top: 40px;
+    font-family:sans-serif;
+    width: 300px;
+    background-color: rgb(205, 175, 137);
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid;
+    outline:none;
+    font-size: large;
+}
+
+.list{
+    position: absolute;
+    right: 2%;
+    width: 100px;
+    height: 100px;
+    border: thin solid;
+}
