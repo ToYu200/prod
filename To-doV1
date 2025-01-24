@@ -1,0 +1,65 @@
+style css
+.adder{
+  width: 0%;
+  margin: 0 auto
+}
+
+.button{
+  background-color: rgb(231, 16, 206);
+  color: rgb(5, 3, 2);
+  border: none;
+  width: 120px;
+  height: 30px;
+  border-radius: 10px;
+  font-family: Arial,
+  sans-serif;
+  font-size: 13px;
+}
+
+.button:hover{
+  color: white;
+  background-color: rgb(145, 12, 130);
+  border: 5px;
+}
+
+JS
+
+var comment = document.getElementsByClassName('button');
+var numCommnets = comment.lenght;
+
+const todo = document.getElementById("taskList") // считаем элементы по ID
+
+/// Обработчик события на кнопке
+show(){comment.addEventListener("click", function () {
+    alert('Hello world')
+  })}
+
+ // Скрываем кнопку
+
+
+  // Появление списка задач
+
+
+
+   // Добавление задачи
+
+HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myproject</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="C:\Users\admin\Desktop\work\Verstka\main.js"></script>
+</head>
+<body>
+   <div class ='adder'>
+    <button class="button" id="button">Создать задачу</button>
+    <ul id="taskList" style="display: none;"></ul>
+   </div>
+</body>
+</html>
+
+
