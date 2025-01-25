@@ -25,6 +25,8 @@ body{
   }
   
 .newTask{
+    top: 150px;
+    width: 500px;
     margin-top: 5px;
     display: flex;
     justify-content: left;
@@ -41,7 +43,7 @@ body{
 
 #newInputTask{
     margin-left: -225px;
-    margin-top: 40px;
+    margin-top: 25px;
     font-family:sans-serif;
     width: 300px;
     background-color: rgb(205, 175, 137);
@@ -53,9 +55,32 @@ body{
 }
 
 .list{
+    top: 150px;
     position: absolute;
-    right: 2%;
-    width: 100px;
-    height: 100px;
-    border: thin solid;
+    right: 20%;
+    width: 500px;
+    height: 700px;
+    border: thin solid rgb(126, 100, 64);
+}
+
+.task{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    width: auto ;
+}
+.text{
+    font-family:sans-serif;
+    font-size:x-large;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    word-break: break-all;
+    margin-left: 8px;
+}
+
+#checkbox{
+    accent-color: rgb(143, 52, 176);
+    width: 17px;
+    height: 17px;
 }

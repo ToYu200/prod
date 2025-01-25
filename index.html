@@ -8,15 +8,18 @@
 </head>
 <body>
     <p id="Logo">To Do List</p>
-   <div class ='adder'>
-    <!-- <button type="submit" id="myButton">Нажми меня</button> -->
-    </div>
+   <!-- <div class ='adder'>
+    <button type="submit" id="myButton">Нажми меня</button>
+    </div> -->
     <div class="newTask">
         <p id="label">Введите новую задачу</p>
-        <input type="text" id="newInputTask">
+        <input type="text" id="newInputTask" spellcheck="false">
    </div>
-   <div class="list">
-    
+   <div class="list" id="list">
+    <div class="task" id="task">
+        <input type="checkbox" id="checkbox">
+        <p class="text">Задача номер один</p>
+    </div>
    </div>
    <script src="script.js"></script>
 </body>
